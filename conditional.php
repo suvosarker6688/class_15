@@ -19,7 +19,10 @@ switch
 //       print("বারগারের দাম ৮০-১০০ টাকা ।");
 //     }else {
 //         print("something went wrong");
-//     }
+//  }
+
+
+
 
 // $price = 45;
 // switch ($price) {
@@ -39,19 +42,29 @@ switch
 //         print('কিছু কিনতে চাইলে পছন্দ করো ।');
 // };
 
-$payment = 'bkash';
-switch ($payment) {
-    case 'cod':
-        print("This payment system is for cod");
-        break;
-    case 'card':
-        print("This payment system is for card");
-        break;
-    case 'bkash':
-        print("This payment system is for bkash");
-        break;
-    case 'nagad':
-        print("This payment system is for nagad"); 
-    default:
-        print('Choose a payment system');
-};
+
+
+
+// $payment = 'bkash';
+// switch ($payment) {
+//     case 'cod':
+//         print("This payment system is for cod");
+//         break;
+//     case 'card':
+//         print("This payment system is for card");
+//         break;
+//     case 'bkash':
+//         print("This payment system is for bkash");
+//         break;
+//     case 'nagad':
+//         print("This payment system is for nagad"); 
+//     default:
+//         print('Choose a payment system');
+// };
+
+
+
+
+
+$value = 50;
+ print($value == 50);
